@@ -164,7 +164,7 @@ Se necesitan aprobar 8 tests unitarios. El primer test unitario es el siguiente:
         self.assertEqual(actual, expected, 'Expected scanning ports of IP address to return [443].')
 ```
 
-A la fecha de hoy, 31 de agosto de 2025, el puerto 443 de la ip "209.216.230.240" esta **filtrado** lo cual se prueba al ejecutar la aplicacíón de manera aislada para dicha URL obteniendose una lista vacia de puertos abiertos en el rango 440-445:
+A la fecha de hoy, 31 de agosto de 2025, el puerto 443 de la ip "209.216.230.240" esta **filtrado** lo cual se prueba al ejecutar la aplicación de manera aislada para dicha URL obteniendose una lista vacia de puertos abiertos en el rango 440-445:
 
 ```py
 import port_scanner_v2 as port_scanner
