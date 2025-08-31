@@ -19,7 +19,7 @@ Código solución del tercer proyecto requisito obligatorio para obtener la **In
 
 Los requisitos del proyecto son los siguientes:
 
-![Requisitos Port Scanner Certification](./requisitos.png)
+![Requisitos Port Scanner Certification](./imagenes/requisitos.png)
 
 ## Código Solución
 
@@ -177,14 +177,16 @@ print("largo:", len(ports))
 
 Mostrándose esto:
 
-![Lista Vacía](./lista_vacia.webp)
+![Lista Vacía](./imagenes/lista_vacia.webp)
 
 Para verificar que el puerto esta filtrado he ejecutado lo siguiente:
 
-![Verificar IP filtrada](./puerto_filtrado.webp)
+![Verificar IP filtrada](./imagenes/puerto_filtrado.webp)
 
 Dado que el puerto esta filtrado entonces he modificado el test cambiando el expected a una lista vacía y en este caso es posible aprobar todos los test unitarios:
 
-![Tests superados](./test_superados.webp)
+![Tests superados](./imagenes/test_superados.webp)
 
 ## Proyecto Aprobado
+
+![Proyecto Aprobado](./imagenes/proyecto_aprobado.webp)
